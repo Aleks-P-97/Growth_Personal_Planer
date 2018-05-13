@@ -25,7 +25,7 @@ namespace Growth
             InitializeComponent();
 
             //Creating an instance of the database
-            //Database databaseObject = new Database();
+            Database databaseObject = new Database();
         }
     }
 }
