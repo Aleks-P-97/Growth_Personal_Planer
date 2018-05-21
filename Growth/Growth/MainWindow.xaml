@@ -26,8 +26,8 @@
                 <RowDefinition Height="141*"/>
             </Grid.RowDefinitions>
 
-            <Button Content="Button" HorizontalAlignment="Left" Margin="164,59,0,0" VerticalAlignment="Top" Width="102" Height="50" Grid.Row="2"/>
-            <Button Content="Button" HorizontalAlignment="Left" Margin="552,59,0,0" VerticalAlignment="Top" Width="102" Height="50" RenderTransformOrigin="0.629,0.568" Grid.Row="2"/>
+            <Button Name="Check" Click="CheckQuery" Content="TEST" HorizontalAlignment="Left" Margin="164,59,0,0" VerticalAlignment="Top" Width="102" Height="50" Grid.Row="2"/>
+            <Button Content="Clear" HorizontalAlignment="Left" Margin="552,59,0,0" VerticalAlignment="Top" Width="102" Height="50" RenderTransformOrigin="0.629,0.568" Grid.Row="2" Click="Button_Click"/>
             <Button Content="Button" HorizontalAlignment="Left" Margin="420,59,0,0" VerticalAlignment="Top" Width="104" Height="50" Grid.Row="2"/>
             <Button Content="Button" HorizontalAlignment="Left" Margin="292,59,0,0" VerticalAlignment="Top" Width="104" Height="50" Grid.Row="2"/>
             <Button Content="Button" HorizontalAlignment="Left" Margin="37,57,0,0" VerticalAlignment="Top" Width="102" Height="50" Grid.Row="2" RenderTransformOrigin="0.5,0.5">
@@ -40,7 +40,8 @@
                     </TransformGroup>
                 </Button.RenderTransform>
             </Button>
-            <Calendar HorizontalAlignment="Left" Margin="73,55,0,0" Grid.Row="1" VerticalAlignment="Top" Height="290" Width="556"/>
+            <Calendar HorizontalAlignment="Left" Margin="73,55,0,0" Grid.Row="1" VerticalAlignment="Top" Height="251" Width="556"/>
+            <TextBox Name="testTB" HorizontalAlignment="Left" Height="94" Margin="103,260,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Text" VerticalAlignment="Top" Width="477"/>
         </Grid>
     </Grid>
 </Window>

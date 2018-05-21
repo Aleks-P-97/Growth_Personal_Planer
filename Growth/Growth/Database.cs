@@ -11,17 +11,6 @@ namespace Growth
 {
     class Database
     {
-        //public SQLiteConnection myConnection;
-
-        //public Database()
-        //{
-        //    myConnection = new SQLiteConnection("Data Source=database.sqlite3");
-
-        //    if(!File.Exists("./database.sqlite3"))
-        //    {
-        //        SQLiteConnection.CreateFile("database.sqlite3");
-        //    }
-        //}
-
+        public SQLiteConnection connection = new SQLiteConnection();
     }
 }
